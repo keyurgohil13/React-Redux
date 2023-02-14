@@ -1,10 +1,13 @@
 import './App.css';
+import Counter from './componants/Counter/Counter';
+import Header from './container/Header/Header';
 
 function App() {
   return (
-    <div>
-      <h1>hello world</h1>
-    </div>
+    <>
+      <Header />
+      <Counter />
+    </>
   );
 }
 
